@@ -18,7 +18,8 @@ public class Week03 {
 		
 		try {
 			FileInputStream stream	= new FileInputStream(file);
-			stream.read(b);
+			stream.read				(b);
+			stream.close			();
 		} catch (FileNotFoundException e) {
 		} catch (IOException e) {
 		}
